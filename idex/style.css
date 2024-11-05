@@ -1,0 +1,64 @@
+nav {
+  position: fixed !important;
+  width: 100%;
+}
+.bg-blue {
+  background-color: #03346e;
+}
+.navbar-light .navbar-brand,
+.navbar-light .nav-link {
+  color: #f8f9fa !important; /* Light text color for visibility on blue */
+}
+
+.navbar-light .nav-link:hover {
+  color: #e2e6ea !important; /* Slightly lighter color on hover */
+}
+.btn-outline-b {
+  color: blue;
+  background-color: rgb(255, 255, 255);
+}
+.btn-outline-b:hover {
+  background-color: #ffffff;
+  color: blue;
+}
+.btn-outline-blue {
+  color: black;
+  border-color: white;
+  border-radius: 10%;
+}
+.btn-outline-blue:hover {
+  background-color: #024caa;
+  color: white;
+}
+body {
+  background: linear-gradient(to right, #b0a695, #ebe3d5);
+}
+.container-lg {
+  height: 100%;
+  width: auto;
+  margin: 0 auto;
+}
+.carter-one-regular {
+  font-family: "Carter One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.welcome {
+  font-family: "Carter One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+p {
+  font-family: "Carter One", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin-bottom: 20px;
+  color: black;
+  font-size: 20px;
+}
+.bg-col {
+  background-color: #e1d7c6;
+}
